@@ -1,0 +1,2 @@
+# BigQuery_python_practice
+PythonでBigQueryの操作をするサンプル
