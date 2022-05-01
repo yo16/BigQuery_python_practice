@@ -39,7 +39,9 @@ pip install pandas-gbq google.cloud google-auth
 
 
 # 参考
-- [BigQuery](https://cloud.google.com/bigquery?hl=ja) > [ドキュメント](https://cloud.google.com/docs?hl=ja) > [ガイド](https://cloud.google.com/bigquery/docs/introduction?hl=ja) > [開発 > BigQuery API の基本 > 認証 > はじめに](https://cloud.google.com/bigquery/docs/authentication?hl=ja)
-- [BigQuery](https://cloud.google.com/bigquery?hl=ja) > [ドキュメント](https://cloud.google.com/docs?hl=ja) > [ガイド](https://cloud.google.com/bigquery/docs/introduction?hl=ja) > [開発 > Pythonライブラリの使用 > pandas-gbq との比較](https://cloud.google.com/bigquery/docs/pandas-gbq-migration?hl=ja)
-  - このページの`pandas-gbq`の試行です。
+- [Google BigQuery](https://cloud.google.com/bigquery?hl=ja) > [ドキュメント](https://cloud.google.com/docs?hl=ja) > [ガイド](https://cloud.google.com/bigquery/docs/introduction?hl=ja) > 開発 > BigQuery API の基本 > 認証 > [はじめに](https://cloud.google.com/bigquery/docs/authentication?hl=ja)
+- [Google BigQuery](https://cloud.google.com/bigquery?hl=ja) > [ドキュメント](https://cloud.google.com/docs?hl=ja) > [ガイド](https://cloud.google.com/bigquery/docs/introduction?hl=ja) > 開発 > Pythonライブラリの使用 > [pandas-gbq との比較](https://cloud.google.com/bigquery/docs/pandas-gbq-migration?hl=ja)
 - pandas > API reference > Input/output  > [pandas.read_gbq](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_gbq.html)
+  - BigQueryからDataFrameへselect。
+- pandas > API reference > DataFrame  > [pandas.DataFrame.to_gbq](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_gbq.html)
+  - DataFrameからBigQueryへinsert。
