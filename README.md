@@ -14,17 +14,8 @@ pip install pandas-gbq google.cloud google-auth
     - bigquery.datasets.get
     - bigquery.jobs.create
     - bigquery.tables.create
-      - いらないかも。あとで消して試してみる
-    - bigquery.tables.delete
-      - いらないかも。あとで消して試してみる
-    - bigquery.tables.export
-      - いらないかも。あとで消して試してみる
     - bigquery.tables.get
-      - いらないかも。あとで消して試してみる
     - bigquery.tables.getData
-    - bigquery.tables.list
-      - いらないかも。あとで消して試してみる
-    - bigquery.tables.update
     - bigquery.tables.updateData
 - ②サービスアカウントを作成
 - ③IAMにサービスアカウントをプリンシパルとして追加
@@ -45,3 +36,4 @@ pip install pandas-gbq google.cloud google-auth
   - BigQueryからDataFrameへselect。
 - pandas > API reference > DataFrame  > [pandas.DataFrame.to_gbq](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_gbq.html)
   - DataFrameからBigQueryへinsert。
+- [BigQuery アクセス権設定まとめ & グループ設計例](https://qiita.com/na0/items/dcb7030a1b5c5e707807)
